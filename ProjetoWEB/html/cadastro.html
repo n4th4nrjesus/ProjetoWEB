@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="../funcionalidades/funcionalidadesCadastro.js"></script>
+    <link rel="stylesheet" type="text/css" href="../estilos/estilosCadastro.css">
+</head>
+
+<body class="container">
+
+    <div class="box">
+            <label>Crie sua conta: </label>
+            <input id=txtNome type="text" placeholder="Digite seu nome completo">
+            <input id="txtEmail" type="text" placeholder="Digite seu novo e-mail">
+<!--O select acho que ficaria legal, só que não consegui deixar ele do lado
+do input do email-->
+            <select id="listaDominio" class="listaDominio">
+                <option>@outlook.com</option>
+                <option>@outlook.com.br</option>
+                <option>hotmail.com</option>
+            </select>
+            <input id="txtSenha" type="password" maxlength="10" placeholder="Digite sua nova senha">
+            <table>
+                <tr>
+                    <td>
+                        <a href="caixaDeEntrada.html">
+                            <button id="btnCadastro">Cadastrar-se</button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+    </div>
+
+</body>
+
+</html>

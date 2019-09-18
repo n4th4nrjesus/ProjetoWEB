@@ -11,15 +11,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 50px;
     border-radius: 10px;
     background-color: whitesmoke;
     box-shadow: 10px 10px 10px rgba(44, 44, 44, 0.733);
-}
-
-label {
-    font-size: xx-large;
-    font-family: sans-serif;
 }
 
 input {
@@ -32,12 +27,25 @@ input {
     background-color: white;
 }
 
-.tdConf {
-    text-align: left;
+select {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: sans-serif;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    background-color: white;
 }
 
-.tdCadas {
-    text-align: right;
+select:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+label {
+    font-size: xx-large;
+    font-family: sans-serif;
 }
 
 table {
@@ -57,12 +65,4 @@ button {
 button:hover{
     background-color: rgb(125, 125, 214);
     cursor: pointer;
-}
-
-a {
-    font-size: small;
-    font-family: sans-serif;
-}
-a:hover {
-    color: rgb(125, 125, 214)
 }
