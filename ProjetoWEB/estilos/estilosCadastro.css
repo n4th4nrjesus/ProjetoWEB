@@ -19,37 +19,18 @@
 
 input {
     padding: 5px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: medium;
     font-family: sans-serif;
     border: 1px solid #CCC;
     border-radius: 2px;
     background-color: white;
 }
-
-select {
-    padding: 5px;
-    margin-top: 20px;
-    font-size: medium;
-    font-family: sans-serif;
-    border: 1px solid #CCC;
-    border-radius: 2px;
-    background-color: white;
-}
-
-select:hover {
-    background-color: lightgray;
-    cursor: pointer;
-}
-
 
 label {
+    margin-bottom: 20px;
     font-size: xx-large;
     font-family: sans-serif;
-}
-
-table {
-    margin-top: 20px;
 }
 
 button {
@@ -62,6 +43,7 @@ button {
     color: white;
     box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.884);
 }
+
 button:hover{
     background-color: rgb(125, 125, 214);
     cursor: pointer;

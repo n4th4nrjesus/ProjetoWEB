@@ -9,26 +9,12 @@
 <body class="container">
 
     <div class="box">
-            <label>Crie sua conta: </label>
-            <input id=txtNome type="text" placeholder="Digite seu nome completo">
-            <input id="txtEmail" type="text" placeholder="Digite seu novo e-mail">
-<!--O select acho que ficaria legal, só que não consegui deixar ele do lado
-do input do email-->
-            <select id="listaDominio" class="listaDominio">
-                <option>@outlook.com</option>
-                <option>@outlook.com.br</option>
-                <option>hotmail.com</option>
-            </select>
-            <input id="txtSenha" type="password" maxlength="10" placeholder="Digite sua nova senha">
-            <table>
-                <tr>
-                    <td>
-                        <a href="caixaDeEntrada.html">
-                            <button id="btnCadastro">Cadastrar-se</button>
-                        </a>
-                    </td>
-                </tr>
-            </table>
+        <label>Crie sua conta: </label>
+        <input id=txtNome type="text" placeholder="Digite seu nome completo">
+        <input id="txtEmail" type="text" placeholder="Digite seu novo e-mail">
+        <input id="txtSenha" type="password" maxlength="16" placeholder="Digite sua nova senha">
+        <input id="txtConfSenha" type="password" maxlength="16" placeholder="Confirme sua senha">
+        <button id="btnCadastro" class="cadastrar">Cadastrar-se</button>
     </div>
 
 </body>

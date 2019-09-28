@@ -54,6 +54,7 @@ button {
     color: white;
     box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.884);
 }
+
 button:hover{
     background-color: rgb(125, 125, 214);
     cursor: pointer;
@@ -63,6 +64,8 @@ a {
     font-size: small;
     font-family: sans-serif;
 }
+
 a:hover {
-    color: rgb(125, 125, 214)
+    color: rgb(125, 125, 214);
+    cursor: pointer;
 }
