@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://myelliesdeli.com/wp-content/uploads/2018/11/wood-background-with-ivy.jpg");
+    background-size: cover;    
+}

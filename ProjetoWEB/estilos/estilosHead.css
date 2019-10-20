@@ -1,0 +1,31 @@
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.head01 {
+    background-color: burlywood;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.head02 {
+    background-color: #f4f4f4;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.pesquisa {
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 2px;
+}
