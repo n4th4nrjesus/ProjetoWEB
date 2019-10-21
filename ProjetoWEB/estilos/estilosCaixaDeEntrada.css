@@ -3,6 +3,119 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("https://myelliesdeli.com/wp-content/uploads/2018/11/wood-background-with-ivy.jpg");
     background-size: cover;    
+}
+
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 2px 2px black;
+}
+
+.head01 {
+    background-color: burlywood;
+    height: 40px;
+    padding: 5px 5px 5px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.head02 {
+    background-color: whitesmoke;
+    height: 40px;
+    padding: 5px 5px 5px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu {
+    position: fixed;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px black;
+    left: 0;
+    top: 100px;
+    width: 30%;
+    height: 100%;
+    width: 30%;
+}
+
+.emails {
+    position: fixed;
+    overflow: auto;
+    background-color: white;
+    left: 30%;
+    top: 100px;
+    height: 557px;
+    width: 70%;
+}
+
+.pesquisa {
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.div01 {
+    width: 30%;
+    text-align: center;
+}
+
+.div02 {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.btnNovaMensagem {
+    padding: 10px;
+    border: none;
+    background: transparent;
+}
+
+.btnNovaMensagem:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.icone {
+    width: 30px;
+}
+
+table{
+    width: 100%;
+}
+
+table img {
+    width: 20px;
+    margin-right: 30px;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    padding: 5px 5px 5px 20px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(2n) {
+    background-color: rgba(222, 184, 135, 0.4);
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(222, 184, 135)
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: transparent;
 }
