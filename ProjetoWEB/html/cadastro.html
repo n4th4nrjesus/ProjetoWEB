@@ -2,19 +2,27 @@
 
 <head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="../funcionalidades/funcionalidadesCadastro.js"></script>
-    <link rel="stylesheet" type="text/css" href="../estilos/estilosCadastro.css">
+    <script type="text/javascript" src="../js/funcionalidadesCadastro.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilosCadastro.css">
 </head>
 
 <body class="container">
 
     <div class="box">
         <label>Crie sua conta: </label>
-        <input id=txtNome type="text" placeholder="Digite seu nome completo">
         <input id="txtEmail" type="text" placeholder="Digite seu novo e-mail">
         <input id="txtSenha" type="password" maxlength="16" placeholder="Digite sua nova senha">
         <input id="txtConfSenha" type="password" maxlength="16" placeholder="Confirme sua senha">
-        <button id="btnCadastro" class="cadastrar">Cadastrar-se</button>
+        <table>
+            <tr>
+                <td class="tdConf">
+                    <button id="btnCadastro" class="cadastrar">Cadastrar-se</button>
+                </td>
+                <td class="tdCadas">
+                    <a href="../index.html">Já possuo<br>uma conta</a>
+                </td>
+            </tr>
+        </table>
     </div>
 
 </body>
