@@ -1,0 +1,29 @@
+<emails>
+    <email>
+        <remetente>nathan.jesus@pucpr.edu.br</remetente>
+        <destinatario>andre.henrique@pucpr.edu.br</destinatario>
+        <assunto>Apenas um email</assunto>
+        <texto>Este é apenas um teste de envio de email para ver se o sistema funciona!</texto>
+        <copias>
+            <destin_copia>Lorem Ipsum</destin_copia>
+        </copias>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>Lorem Ipsum</destinatario>
+        <assunto>Apenas um email de novo</assunto>
+        <texto>Estou testando o sistema e por isso mando este email!!</texto>
+        <copias>
+            <destin_copia>nathan.jesus@pucpr.edu.br</destin_copia>
+        </copias>
+    </email>
+    <email>
+        <remetente>Lorem Ipsum</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Lorem Impsum assunto</assunto>
+        <texto>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, sed.</texto>
+        <copias>
+            <destin_copia>andre.henrique@pucpr.edu.br</destin_copia>
+        </copias>
+    </email>
+</emails>

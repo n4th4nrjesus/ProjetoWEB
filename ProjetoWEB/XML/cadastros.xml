@@ -1,10 +1,14 @@
 <cadastros>
     <usuario>
         <email>nathan.jesus@pucpr.edu.br</email>
-        <senha>nathan.jesus@pucpr.edu.br</senha>
+        <senha>nathan.jesus@pucpr.edu.br senha</senha>
     </usuario>
     <usuario>
         <email>andre.henrique@pucpr.edu.br</email>
-        <senha>andre.henrique@pucpr.edu.br</senha>
+        <senha>andre.henrique@pucpr.edu.br senha</senha>
+    </usuario>
+    <usuario>
+        <email>Lorem Ipsum</email>
+        <senha>Lorem ipsum dolor</senha>
     </usuario>
 </cadastros>
