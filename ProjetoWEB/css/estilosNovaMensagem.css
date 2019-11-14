@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://myelliesdeli.com/wp-content/uploads/2018/11/wood-background-with-ivy.jpg");
+    background-size: cover;
+}
+
+.box {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px rgba(44, 44, 44, 0.733);
+}
+
+label {
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bolder
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: royalblue;
+    font-size: medium;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.884);
+}

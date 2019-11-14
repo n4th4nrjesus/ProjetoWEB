@@ -7,18 +7,17 @@
     $senha = trim($_POST["senha"]);
     $confSenha = trim($_POST["confSenha"]);
 
+    if($senha == $confSenha) {
+        $email = $xml_object->createElement($email);
+        $senha = $xml_object->createElement($senha);
+        $usuario = $xml_object->createElement("usuario");
 
-    $xml = new DOMDocument("1.0");
+        $usuario->appendChild($email);
+        $usuario->appendChild($senha);
+        $xml_object->appendChild($usuario);
 
-    if($senha === $confSenha) {
-        $email = $xml->createElement($email);
-        $senha = $xml->createElement($senha);
-
-
-        
-
-
-
+        $xml_object->save("../xml/cadastros.xml");        
+    
     } else {
         $retorno["status"] = "n";
         $retorno["mensagem"] = "Senha diferentes";
