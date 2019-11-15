@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
     $("#btnEnviar").click(function(){
+        
         var destinatario = $("#txtDestinatario").val();
         var cc = $("#txtCopia").val();
         var assunto = $("#txtAssunto").val();

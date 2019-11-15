@@ -2,7 +2,7 @@
 
     $xml = simplexml_load_file("../xml/emailEnviado.xml");
     
-    $destinatario = trim($P_OST["ajax_destinatario"]);
+    $destinatario = trim($_POST["ajax_destinatario"]);
     $cc = trim($_POST["ajax_cc"]);
     $assunto = trim($_POST["ajax_assunto"]);
     $texto = trim($_POST["ajax_texto"]);
