@@ -1,5 +1,3 @@
-var json = [{origem:"kelly.bettio@pucpr.edu", destinatario:"alunos.bes@pucpr.edu"}, {origem:"eduardo.lino@pucpr.edu"}]
-
 $(document).ready(function(){
 
     $("#btnConf").click(function() {
@@ -14,6 +12,9 @@ $(document).ready(function(){
             },
             success: function (retorno) {
                 alert(retorno.mensagem);
+                if(retorno.status == "s") {
+                    window.location.href = "./html/caixaDeEntrada.html";
+                }
             }
         });
 
