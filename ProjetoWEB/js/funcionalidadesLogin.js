@@ -6,7 +6,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: "POST",
-            url: "../php/verificarEmail.php",
+            url: "php/verificarEmail.php",
             dataType: "json",
             data: {
                 email: $("#txtEmail").val(),
