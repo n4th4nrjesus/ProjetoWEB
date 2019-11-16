@@ -44,6 +44,7 @@
 }
 
 .emails {
+    font-family: sans-serif;
     position: fixed;
     overflow: auto;
     background-color: rgba(255, 255, 255, 0.8);
@@ -125,3 +126,7 @@ label {
     cursor: pointer;
 }
 
+.emails td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -23,7 +23,7 @@ $(document).ready(function(){
                 success: function (retorno) {
                     alert(retorno.mensagem);
                     if(retorno.status == "s") {
-                        window.location.href = "caixaDeEntrada.html";
+                        window.location.href = "../index.html";
                     }
                 } 
             })

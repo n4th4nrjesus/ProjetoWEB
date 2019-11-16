@@ -18,13 +18,29 @@
     box-shadow: 10px 10px 10px rgba(44, 44, 44, 0.733);
 }
 
-label {
-    font-size: x-large;
+h3 {
     font-family: sans-serif;
-    font-weight: bolder
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+input, textarea {
+    padding: 5px;
+    font-size: medium;
+    font-family: sans-serif;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    background-color: white;
 }
 
 button {
+    width: 150px;
     border: none;
     border-radius: 7px;
     padding: 7px;
@@ -37,5 +53,27 @@ button {
 
 button:hover{
     background-color: rgb(125, 125, 214);
+    cursor: pointer;
+}
+
+.tdConf {
+    text-align: left;
+}
+
+.tdCaixEnt {
+    text-align: right;
+}
+
+table {
+    margin-top: 20px;
+}
+
+a {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: rgb(125, 125, 214);
     cursor: pointer;
 }
