@@ -144,6 +144,13 @@ label {
     font-weight: bold;
 }
 
+.tblEmail td {
+    padding: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .colRemet {
     width: 220px;
 }
@@ -154,7 +161,4 @@ label {
 
 .colTexto {
     width: 410px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
