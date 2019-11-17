@@ -88,6 +88,10 @@
     width: 30px;
 }
 
+.iconePessoa {
+    width: 25px;
+}
+
 table{
     width: 100%;
 }
@@ -126,7 +130,31 @@ label {
     cursor: pointer;
 }
 
-.emails td {
+.colImg {
+    width: 35px;
+}
+
+.tblEmail {
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 2px solid rgb(222, 184, 135);
+}
+
+.colRemet, .colAssunto {
+    font-weight: bold;
+}
+
+.colRemet {
+    width: 220px;
+}
+
+.colAssunto {
+    width: 240px;
+}
+
+.colTexto {
+    width: 410px;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
