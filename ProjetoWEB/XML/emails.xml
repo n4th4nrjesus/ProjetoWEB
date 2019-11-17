@@ -4,7 +4,7 @@
         <remetente>nathan.jesus@pucpr.edu.br</remetente>
         <destinatario>andre.henrique@pucpr.edu.br</destinatario>
         <assunto>Apenas um email</assunto>
-        <texto>Este &#xE9; apenas um teste de envio de email para ver se o sistema funciona!</texto>
+        <texto>Este apenas um teste de envio de email para ver se o sistema funciona!</texto>
         <copia>Lorem Ipsum</copia>
     </email>
     <email>

@@ -44,4 +44,19 @@ $(document).ready(function () {
         window.location.href = "../index.html";
     });
 
+    $("#trItensExcluidos").click(function(){
+        window.location.href = "itensExcluidos.html";
+    });
+
+    $.ajax({
+        type: "POST",
+        dataType: "html",
+        url: "../php/emailsCaixaDeEntrada.php",
+        success: function(){
+            $(".tblEmail, tr").on('click', '#btnLixeira', function(){
+                $(this).closest('tr').remove();
+            })
+        }
+    })
+
 });

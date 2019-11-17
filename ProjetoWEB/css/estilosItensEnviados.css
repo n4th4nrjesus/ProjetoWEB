@@ -36,7 +36,7 @@
 .menu {
     position: fixed;
     background-color: rgba(245, 245, 245, 0.8);
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 0.5px 0.5px 2px black;
     left: 0;
     top: 100px;
     width: 30%;
@@ -148,6 +148,8 @@ label {
 
 .colRemet, .colAssunto {
     font-weight: bold;
+    width: 180px;
+    cursor: pointer;
 }
 
 .tblEmail td {
@@ -157,10 +159,8 @@ label {
     text-overflow: ellipsis;
 }
 
-.colRemet, .colAssunto {
-    width: 170px;
-}
 
 .colTexto {
-    width: 520px;
+    width: 475px;
+    cursor: pointer;
 }

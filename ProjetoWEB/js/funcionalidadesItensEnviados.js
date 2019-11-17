@@ -44,4 +44,8 @@ $(document).ready(function () {
         window.location.href = "../index.html";
     });
 
+    $("#trItensExcluidos").click(function() {
+        window.location.href = "itensExcluidos.html";
+    });
+
 });

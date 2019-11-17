@@ -28,8 +28,9 @@
                 $retorno .= "<tr>";
                 $retorno .= "<td class=\"colImg\"><img src=\"https://conexaofreelancer.com.br/wp-content/uploads/2018/06/Pessoa.png\" class=\"iconePessoa\"/></td>";
                 $retorno .= "<td class=\"colRemet\">".$retorno_dados["remetente"]."</td>";
-                $retorno .= "<td class=\"colAssunto\">".$complemento_assunto.$retorno_dados["assunto"]."</td>";
+                $retorno .= "<td class=\"colAssunto\">"."Assunto: ".$complemento_assunto.$retorno_dados["assunto"]."</td>";
                 $retorno .= "<td class=\"colTexto\">".$retorno_dados["texto"]."</td>";
+                $retorno .= "<td class=\"colImg\"><img src=\"https://cdn3.iconfinder.com/data/icons/objects/512/Bin-512.png\" class=\"iconeLixeira\" id=\"btnLixeira\"/></td>";
                 $retorno .= "</tr>";
                 $retorno .= "</table>";
             }

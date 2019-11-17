@@ -21,7 +21,7 @@
                 $retorno .= "<tr>";
                 $retorno .= "<td class=\"colImg\"><img src=\"https://conexaofreelancer.com.br/wp-content/uploads/2018/06/Pessoa.png\" class=\"iconePessoa\"/></td>";
                 $retorno .= "<td class=\"colRemet\">".$retorno_dados["remetente"]."</td>";
-                $retorno .= "<td class=\"colAssunto\">".$retorno_dados["assunto"]."</td>";
+                $retorno .= "<td class=\"colAssunto\">"."Assunto: ".$retorno_dados["assunto"]."</td>";
                 $retorno .= "<td class=\"colTexto\">".$retorno_dados["texto"]."</td>";
                 $retorno .= "</tr>";
                 $retorno .= "</table>";
