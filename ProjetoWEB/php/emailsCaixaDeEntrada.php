@@ -9,14 +9,12 @@
     $retorno = "";
 
     for ($i = 0; $i < count($xml_obj); $i ++) {
-        for ($j = 0; $j < count($xml_obj->email[$i]->copias->children()); $j ++) {
-            if ($email == $xml_obj->email[$i]->copias->destin_copia[$j]) {
-                $verif_copia = true;
-                $complemento_assunto = " (cópia)";
-            } else {
-                $verif_copia = false;
-                $complemento_assunto = "";
-            }
+        if ($email == $xml_obj->email[$i]->copia) {
+            $verif_copia = true;
+            $complemento_assunto = " (cópia)";
+        } else {
+            $verif_copia = false;
+            $complemento_assunto = "";
         }
         if (($email == $xml_obj->email[$i]->destinatario) || $verif_copia) {
             $retorno_dados["remetente"] = trim($xml_obj->email[$i]->remetente);

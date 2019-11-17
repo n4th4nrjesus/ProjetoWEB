@@ -13,4 +13,12 @@ $(document).ready(function(){
         window.location.href = "novaMensagem.html";
     });
 
+    $("#tdCaixaEnt, #tdCaixaEnt img, #tdCaixaEnt label").click(function(){
+        window.location.href = "caixaDeEntrada.html";
+    });
+
+    $("#tdDeslogar, #tdDeslogar img, #tdDeslogar label").click(function(){
+        window.location.href = "../index.html";
+    });
+
 });
