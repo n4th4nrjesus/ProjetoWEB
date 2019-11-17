@@ -5,7 +5,7 @@ $(document).ready(function () {
     $.ajax({
         type: "POST",
         dataType: "html",
-        url: "../php/emailsCaixaDeEntrada.php",
+        url: "../php/emailsEnviados.php",
         data: {
             pesquisa: $("#txtPesquisa").val()
         },
@@ -18,7 +18,7 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             dataType: "html",
-            url: "../php/emailsCaixaDeEntrada.php",
+            url: "../php/emailsEnviados.php",
             data: {
                 pesquisa: $("#txtPesquisa").val()
             },
