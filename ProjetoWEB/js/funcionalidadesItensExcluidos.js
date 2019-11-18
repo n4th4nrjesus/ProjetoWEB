@@ -15,4 +15,5 @@ $(document).ready(function(){
     $("#trDeslogar").click(function () {
         window.location.href = "../index.html";
     });
+    
 });
