@@ -28,6 +28,18 @@ $(document).ready(function () {
         });
     });
 
+    $.ajax({
+        type: "POST",
+        dataType: "html",
+        url: "../php/emailsCaixaDeEntrada.php",
+        success: function(){
+            $(".tblEmail, tr").on('click', '#btnLixeira', function(){
+                $(this).closest('tr').remove();
+            })
+        }
+    });
+    
+
     $("#btnNovaMensagem").click(function () {
         window.location.href = "novaMensagem.html";
     });
@@ -47,16 +59,5 @@ $(document).ready(function () {
     $("#trItensExcluidos").click(function(){
         window.location.href = "itensExcluidos.html";
     });
-
-    $.ajax({
-        type: "POST",
-        dataType: "html",
-        url: "../php/emailsCaixaDeEntrada.php",
-        success: function(){
-            $(".tblEmail, tr").on('click', '#btnLixeira', function(){
-                $(this).closest('tr').remove();
-            })
-        }
-    })
 
 });

@@ -1,5 +1,14 @@
 $(document).ready(function(){
     
+    $.ajax({
+        type: "POST",
+        dataType: "html",
+        url: "../php/emailsExcluidos.php",
+        success: function (retorno) {
+            $("#divEmails").html(retorno);
+        }
+    });
+
     $("#btnNovaMensagem").click(function () {
         window.location.href = "novaMensagem.html";
     });

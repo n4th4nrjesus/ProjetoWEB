@@ -56,11 +56,26 @@
 }
 
 .pesquisa {
+    color: rgb(255, 255, 255);
     vertical-align: middle;
     padding: 10px;
     margin-left: 20px;
     border: none;
+    border-bottom: 1px solid rgb(173, 135, 85);
     border-radius: 5px;
+    background-color: rgba(236, 210, 176, 0.774);
+}
+
+.pesquisa {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 6px;
+    background-size: 20px;
+}
+
+.pesquisa::placeholder {
+    color: rgb(31, 30, 30);
 }
 
 .div01 {
@@ -88,6 +103,7 @@
 
 .icone {
     width: 30px;
+    cursor: pointer;
 }
 
 .iconePessoa {

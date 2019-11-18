@@ -28,4 +28,60 @@
         <texto>Ultimo email de teste feito para testar o sistema!</texto>
         <copia>Lorem Ipsum</copia>
     </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
+    <email>
+        <remetente>andre.henrique@pucpr.edu.br</remetente>
+        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
+        <assunto>Ultimo teste</assunto>
+        <texto>Ultimo email de teste feito para testar o sistema!</texto>
+        <copia>Lorem Ipsum</copia>
+    </email>
 </emails>

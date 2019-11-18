@@ -15,7 +15,7 @@
 }
 
 .head01 {
-    background-color: rgba(222, 184, 135, 0.8);
+    background-color: rgba(222, 184, 135, 0.9);
     height: 40px;
     padding: 5px 5px 5px 20px;
     display: flex;
@@ -55,12 +55,28 @@
 }
 
 .pesquisa {
+    color: rgb(255, 255, 255);
     vertical-align: middle;
     padding: 10px;
     margin-left: 20px;
     border: none;
+    border-bottom: 1px solid rgb(173, 135, 85);
     border-radius: 5px;
+    background-color: rgba(236, 210, 176, 0.774);
 }
+
+.pesquisa::placeholder {
+    color: rgb(31, 30, 30);
+}
+
+.pesquisa {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 6px;
+    background-size: 20px;
+}
+
 
 .div01 {
     width: 30%;
@@ -87,6 +103,7 @@
 
 .icone {
     width: 30px;
+    cursor: pointer;
 }
 
 .iconePessoa {
@@ -145,12 +162,6 @@ label {
     padding: 7px;
 }
 
-.colRemet, .colAssunto {
-    font-weight: bold;
-    width: 180px;
-    cursor: pointer;
-}
-
 .tblEmail td {
     padding: 5px;
     white-space: nowrap;
@@ -158,6 +169,11 @@ label {
     text-overflow: ellipsis;
 }
 
+.colRemet, .colAssunto {
+    font-weight: bold;
+    width: 180px;
+    cursor: pointer;
+}
 
 .colTexto {
     width: 455px;

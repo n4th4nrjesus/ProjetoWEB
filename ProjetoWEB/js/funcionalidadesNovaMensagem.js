@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     $("#txtDestin").focus();
 
+
     $("#btnEnviar").click(function () {
         var erro = false;
         if (($("#txtDestin").val() == "") || ($("#txtAssunto").val() == "") || ($("#txtTexto").val() == "")) {
