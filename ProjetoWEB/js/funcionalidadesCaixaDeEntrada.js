@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     $("#txtPesquisa").focus();
 
+    
     $.ajax({
         type: "POST",
         dataType: "html",

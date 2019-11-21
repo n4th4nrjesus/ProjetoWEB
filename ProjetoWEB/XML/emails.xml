@@ -4,7 +4,7 @@
         <remetente>nathan.jesus@pucpr.edu.br</remetente>
         <destinatario>andre.henrique@pucpr.edu.br</destinatario>
         <assunto>Apenas um email</assunto>
-        <texto>Este é apenas um teste de envio de email para ver se o sistema funciona!</texto>
+        <texto>Este &#xE9; apenas um teste de envio de email para ver se o sistema funciona!</texto>
         <copia>Lorem Ipsum</copia>
     </email>
     <email>
@@ -20,62 +20,6 @@
         <assunto>Lorem Impsum assunto</assunto>
         <texto>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, sed.</texto>
         <copia>andre.henrique@pucpr.edu.br</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
-    </email>
-    <email>
-        <remetente>andre.henrique@pucpr.edu.br</remetente>
-        <destinatario>nathan.jesus@pucpr.edu.br</destinatario>
-        <assunto>Ultimo teste</assunto>
-        <texto>Ultimo email de teste feito para testar o sistema!</texto>
-        <copia>Lorem Ipsum</copia>
     </email>
     <email>
         <remetente>andre.henrique@pucpr.edu.br</remetente>

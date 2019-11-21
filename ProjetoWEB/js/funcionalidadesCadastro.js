@@ -1,5 +1,7 @@
 $(document).ready(function(){
    
+    $("#txtEmail").focus();
+
     $("#btnCadastro").click(function() { 
         var erro = 0;
         $("input").each(function() {

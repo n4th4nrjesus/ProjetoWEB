@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    $("#txtEmail").focus();
+
     $("#btnConf").click(function() {
 
         $.ajax({
